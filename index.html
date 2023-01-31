@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de idade</h1>
+    </header>
+    <section>
+        <div id="question">
+        Ano de nascimento: 
+        <input type="number" placeholder="2004" id="age" min="0" required>
+        <p>
+            Gênero: 
+            <form id="genero">
+        <label>
+        <input type="radio" value="fem" name="radiosex" id="fem"> Feminino
+        </label>
+        <label>
+            <input type="radio" value="masc" name="radiosex" id="masc"> Masculino
+        </label>
+    </form>
+        </p>    
+        </div> 
+        <div id="answer">
+            <button type="submit" id="botao" onclick="verificar()">Verificar</button>
+
+        </div>
+        <div id="imagemsg">
+        <div id="msg">
+            <p>Preencha os dados para saber o resultado!</p> 
+        </div>
+        <div id="foto">
+            <img id="imagem" src="images/bebef.png" alt="">
+
+        </div>
+    </div>
+    </section>
+    <footer>
+        <p id="cred">&copy; fermariano</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

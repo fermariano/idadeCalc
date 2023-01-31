@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+#imagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #F5EBE0;
+    font-size: 20px;
+    font-family: Source Code Pro;
+}
+
+header {
+    color: #DBA39A;
+    text-align: center;
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+    width: 600px;
+    height: 550px;
+    margin: auto;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.459);
+
+}
+
+#msg {
+    text-align: center;
+    margin-top: 18px;
+}
+
+footer {
+    text-align: center;
+}
+
+#botao {
+    margin-left: 260px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 7px;
+    background-color: #F5EBE0;
+    font-size: 15px;
+    font-family: Itim;
+}
+
+#botao:hover {
+    background-color: #DBA39A;
+}
+
+#age {
+    width: 90px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #F5EBE0;
+}
